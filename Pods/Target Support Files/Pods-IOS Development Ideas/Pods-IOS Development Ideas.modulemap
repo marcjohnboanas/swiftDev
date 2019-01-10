@@ -1,0 +1,6 @@
+framework module Pods_IOS_Development_Ideas {
+  umbrella header "Pods-IOS Development Ideas-umbrella.h"
+
+  export *
+  module * { export * }
+}
