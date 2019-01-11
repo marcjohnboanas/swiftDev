@@ -15,6 +15,10 @@
 		964F47DF21E7BB7B00593124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964F47DD21E7BB7B00593124 /* LaunchScreen.storyboard */; };
 		964F47EA21E7BB8000593124 /* IOS_Development_IdeasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47E921E7BB8000593124 /* IOS_Development_IdeasTests.swift */; };
 		964F47F521E7BB8000593124 /* IOS_Development_IdeasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47F421E7BB8000593124 /* IOS_Development_IdeasUITests.swift */; };
+		964F480321E7DB0E00593124 /* StretchyCollectionHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F480221E7DB0E00593124 /* StretchyCollectionHeaderController.swift */; };
+		964F480521E7E95500593124 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F480421E7E95500593124 /* HeaderView.swift */; };
+		964F480721E8E80A00593124 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F480621E8E80A00593124 /* Extensions+UIView.swift */; };
+		964F480921E8EAD000593124 /* StretchyHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F480821E8EAD000593124 /* StretchyHeaderLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		964F47F021E7BB8000593124 /* IOS Development IdeasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS Development IdeasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		964F47F421E7BB8000593124 /* IOS_Development_IdeasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Development_IdeasUITests.swift; sourceTree = "<group>"; };
 		964F47F621E7BB8000593124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964F480221E7DB0E00593124 /* StretchyCollectionHeaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyCollectionHeaderController.swift; sourceTree = "<group>"; };
+		964F480421E7E95500593124 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		964F480621E8E80A00593124 /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		964F480821E8EAD000593124 /* StretchyHeaderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				964F47D121E7BB5F00593124 /* AppDelegate.swift */,
+				964F480421E7E95500593124 /* HeaderView.swift */,
+				964F480221E7DB0E00593124 /* StretchyCollectionHeaderController.swift */,
+				964F480821E8EAD000593124 /* StretchyHeaderLayout.swift */,
 				964F47D321E7BB5F00593124 /* ViewController.swift */,
 				964F47D521E7BB5F00593124 /* Main.storyboard */,
 				964F47DB21E7BB7B00593124 /* Assets.xcassets */,
 				964F47DD21E7BB7B00593124 /* LaunchScreen.storyboard */,
 				964F47E021E7BB7B00593124 /* Info.plist */,
 				964F47D821E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld */,
+				964F480621E8E80A00593124 /* Extensions+UIView.swift */,
 			);
 			path = "IOS Development Ideas";
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				964F480521E7E95500593124 /* HeaderView.swift in Sources */,
 				964F47D421E7BB5F00593124 /* ViewController.swift in Sources */,
+				964F480721E8E80A00593124 /* Extensions+UIView.swift in Sources */,
+				964F480921E8EAD000593124 /* StretchyHeaderLayout.swift in Sources */,
 				964F47DA21E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld in Sources */,
+				964F480321E7DB0E00593124 /* StretchyCollectionHeaderController.swift in Sources */,
 				964F47D221E7BB5F00593124 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
