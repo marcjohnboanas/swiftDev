@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		964F47D221E7BB5F00593124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47D121E7BB5F00593124 /* AppDelegate.swift */; };
-		964F47D421E7BB5F00593124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47D321E7BB5F00593124 /* ViewController.swift */; };
+		964F47D421E7BB5F00593124 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47D321E7BB5F00593124 /* LoginController.swift */; };
 		964F47D721E7BB5F00593124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964F47D521E7BB5F00593124 /* Main.storyboard */; };
 		964F47DA21E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 964F47D821E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld */; };
 		964F47DC21E7BB7B00593124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964F47DB21E7BB7B00593124 /* Assets.xcassets */; };
 		964F47DF21E7BB7B00593124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964F47DD21E7BB7B00593124 /* LaunchScreen.storyboard */; };
 		964F47EA21E7BB8000593124 /* IOS_Development_IdeasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47E921E7BB8000593124 /* IOS_Development_IdeasTests.swift */; };
 		964F47F521E7BB8000593124 /* IOS_Development_IdeasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47F421E7BB8000593124 /* IOS_Development_IdeasUITests.swift */; };
+		964F480B21E9229F00593124 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F480A21E9229F00593124 /* Extensions+UIView.swift */; };
+		964F480D21E9278F00593124 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F480C21E9278F00593124 /* BaseCell.swift */; };
+		964F480F21EA3FD600593124 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F480E21EA3FD600593124 /* Page.swift */; };
+		964F481121EA9ABE00593124 /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F481021EA9ABE00593124 /* LoginCell.swift */; };
+		964F481321ECE1AD00593124 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F481221ECE1AC00593124 /* MainNavigationController.swift */; };
+		964F481521EE1F6000593124 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F481421EE1F6000593124 /* HomeController.swift */; };
+		964F481D21EE246400593124 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F481C21EE246400593124 /* UserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,7 @@
 /* Begin PBXFileReference section */
 		964F47CE21E7BB5F00593124 /* IOS Development Ideas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Development Ideas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		964F47D121E7BB5F00593124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		964F47D321E7BB5F00593124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		964F47D321E7BB5F00593124 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		964F47D621E7BB5F00593124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		964F47D921E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOS_Development_Ideas.xcdatamodel; sourceTree = "<group>"; };
 		964F47DB21E7BB7B00593124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		964F47F021E7BB8000593124 /* IOS Development IdeasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS Development IdeasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		964F47F421E7BB8000593124 /* IOS_Development_IdeasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Development_IdeasUITests.swift; sourceTree = "<group>"; };
 		964F47F621E7BB8000593124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964F480A21E9229F00593124 /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		964F480C21E9278F00593124 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		964F480E21EA3FD600593124 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		964F481021EA9ABE00593124 /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		964F481221ECE1AC00593124 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		964F481421EE1F6000593124 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		964F481C21EE246400593124 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +113,15 @@
 		964F47D021E7BB5F00593124 /* IOS Development Ideas */ = {
 			isa = PBXGroup;
 			children = (
-				964F47D121E7BB5F00593124 /* AppDelegate.swift */,
-				964F47D321E7BB5F00593124 /* ViewController.swift */,
-				964F47D521E7BB5F00593124 /* Main.storyboard */,
-				964F47DB21E7BB7B00593124 /* Assets.xcassets */,
-				964F47DD21E7BB7B00593124 /* LaunchScreen.storyboard */,
+				964F481B21EE201A00593124 /* Misc. */,
+				964F481721EE1FB800593124 /* Extensions */,
+				964F481821EE1FD000593124 /* Cells */,
+				964F481921EE1FE700593124 /* Models */,
+				964F481621EE1F6C00593124 /* View Controllers */,
+				964F481A21EE200200593124 /* Views */,
 				964F47E021E7BB7B00593124 /* Info.plist */,
 				964F47D821E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld */,
+				964F47DB21E7BB7B00593124 /* Assets.xcassets */,
 			);
 			path = "IOS Development Ideas";
 			sourceTree = "<group>";
@@ -126,6 +142,59 @@
 				964F47F621E7BB8000593124 /* Info.plist */,
 			);
 			path = "IOS Development IdeasUITests";
+			sourceTree = "<group>";
+		};
+		964F481621EE1F6C00593124 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				964F481421EE1F6000593124 /* HomeController.swift */,
+				964F47D321E7BB5F00593124 /* LoginController.swift */,
+				964F481221ECE1AC00593124 /* MainNavigationController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		964F481721EE1FB800593124 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				964F480A21E9229F00593124 /* Extensions+UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		964F481821EE1FD000593124 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				964F480C21E9278F00593124 /* BaseCell.swift */,
+				964F481021EA9ABE00593124 /* LoginCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		964F481921EE1FE700593124 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				964F480E21EA3FD600593124 /* Page.swift */,
+				964F481C21EE246400593124 /* UserDefaults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		964F481A21EE200200593124 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				964F47DD21E7BB7B00593124 /* LaunchScreen.storyboard */,
+				964F47D521E7BB5F00593124 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		964F481B21EE201A00593124 /* Misc. */ = {
+			isa = PBXGroup;
+			children = (
+				964F47D121E7BB5F00593124 /* AppDelegate.swift */,
+			);
+			path = Misc.;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964F47D421E7BB5F00593124 /* ViewController.swift in Sources */,
+				964F47D421E7BB5F00593124 /* LoginController.swift in Sources */,
+				964F481121EA9ABE00593124 /* LoginCell.swift in Sources */,
+				964F481321ECE1AD00593124 /* MainNavigationController.swift in Sources */,
 				964F47DA21E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld in Sources */,
+				964F480F21EA3FD600593124 /* Page.swift in Sources */,
+				964F481521EE1F6000593124 /* HomeController.swift in Sources */,
+				964F481D21EE246400593124 /* UserDefaults.swift in Sources */,
+				964F480B21E9229F00593124 /* Extensions+UIView.swift in Sources */,
+				964F480D21E9278F00593124 /* BaseCell.swift in Sources */,
 				964F47D221E7BB5F00593124 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
