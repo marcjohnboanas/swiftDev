@@ -12,3 +12,7 @@ A collection of Swift development ideas for UI &amp; UX
 3. A Walkthrough using a UICollectionView and Custom Cells. Includes a simple login using UserDefaults.
 
     git checkout creating-a-walkthrough
+    
+4. Simple keyboard insets to prevent the keyboard from obstructing content on the page.
+
+    git checkout keyboard-insets
