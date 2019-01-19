@@ -15,6 +15,7 @@
 		964F47DF21E7BB7B00593124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964F47DD21E7BB7B00593124 /* LaunchScreen.storyboard */; };
 		964F47EA21E7BB8000593124 /* IOS_Development_IdeasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47E921E7BB8000593124 /* IOS_Development_IdeasTests.swift */; };
 		964F47F521E7BB8000593124 /* IOS_Development_IdeasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47F421E7BB8000593124 /* IOS_Development_IdeasUITests.swift */; };
+		96F2273021F371F500986BBB /* Extensions+UIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2272F21F371F500986BBB /* Extensions+UIVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		964F47F021E7BB8000593124 /* IOS Development IdeasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS Development IdeasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		964F47F421E7BB8000593124 /* IOS_Development_IdeasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Development_IdeasUITests.swift; sourceTree = "<group>"; };
 		964F47F621E7BB8000593124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F2272F21F371F500986BBB /* Extensions+UIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIVIew.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		964F47D021E7BB5F00593124 /* IOS Development Ideas */ = {
 			isa = PBXGroup;
 			children = (
+				96F2272E21F3719D00986BBB /* Utils */,
 				964F47D121E7BB5F00593124 /* AppDelegate.swift */,
 				964F47D321E7BB5F00593124 /* ViewController.swift */,
 				964F47D521E7BB5F00593124 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				964F47F621E7BB8000593124 /* Info.plist */,
 			);
 			path = "IOS Development IdeasUITests";
+			sourceTree = "<group>";
+		};
+		96F2272E21F3719D00986BBB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				96F2272F21F371F500986BBB /* Extensions+UIVIew.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				964F47D421E7BB5F00593124 /* ViewController.swift in Sources */,
 				964F47DA21E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld in Sources */,
+				96F2273021F371F500986BBB /* Extensions+UIVIew.swift in Sources */,
 				964F47D221E7BB5F00593124 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
