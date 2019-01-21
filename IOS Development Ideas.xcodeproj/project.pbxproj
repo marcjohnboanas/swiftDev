@@ -16,6 +16,9 @@
 		964F47EA21E7BB8000593124 /* IOS_Development_IdeasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47E921E7BB8000593124 /* IOS_Development_IdeasTests.swift */; };
 		964F47F521E7BB8000593124 /* IOS_Development_IdeasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47F421E7BB8000593124 /* IOS_Development_IdeasUITests.swift */; };
 		96F2273021F371F500986BBB /* Extensions+UIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2272F21F371F500986BBB /* Extensions+UIVIew.swift */; };
+		96F2273221F373EB00986BBB /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2273121F373EB00986BBB /* ScrollViewController.swift */; };
+		96F2273421F387F100986BBB /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2273321F387F100986BBB /* NavView.swift */; };
+		96F2273621F3DCEF00986BBB /* NavViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F2273521F3DCEF00986BBB /* NavViewAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		964F47F421E7BB8000593124 /* IOS_Development_IdeasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Development_IdeasUITests.swift; sourceTree = "<group>"; };
 		964F47F621E7BB8000593124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F2272F21F371F500986BBB /* Extensions+UIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIVIew.swift"; sourceTree = "<group>"; };
+		96F2273121F373EB00986BBB /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		96F2273321F387F100986BBB /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		96F2273521F3DCEF00986BBB /* NavViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		960B165A21F4DB9F00ABCE18 /* Navigation Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				96F2273521F3DCEF00986BBB /* NavViewAnimation.swift */,
+				96F2273321F387F100986BBB /* NavView.swift */,
+			);
+			path = "Navigation Overlay";
+			sourceTree = "<group>";
+		};
+		960B165B21F4DBCE00ABCE18 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96F2273121F373EB00986BBB /* ScrollViewController.swift */,
+				964F47D321E7BB5F00593124 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		964F47C521E7BB5F00593124 = {
 			isa = PBXGroup;
 			children = (
@@ -102,8 +126,9 @@
 			isa = PBXGroup;
 			children = (
 				96F2272E21F3719D00986BBB /* Utils */,
+				960B165A21F4DB9F00ABCE18 /* Navigation Overlay */,
+				960B165B21F4DBCE00ABCE18 /* View Controllers */,
 				964F47D121E7BB5F00593124 /* AppDelegate.swift */,
-				964F47D321E7BB5F00593124 /* ViewController.swift */,
 				964F47D521E7BB5F00593124 /* Main.storyboard */,
 				964F47DB21E7BB7B00593124 /* Assets.xcassets */,
 				964F47DD21E7BB7B00593124 /* LaunchScreen.storyboard */,
@@ -272,7 +297,10 @@
 			files = (
 				964F47D421E7BB5F00593124 /* ViewController.swift in Sources */,
 				964F47DA21E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld in Sources */,
+				96F2273621F3DCEF00986BBB /* NavViewAnimation.swift in Sources */,
+				96F2273221F373EB00986BBB /* ScrollViewController.swift in Sources */,
 				96F2273021F371F500986BBB /* Extensions+UIVIew.swift in Sources */,
+				96F2273421F387F100986BBB /* NavView.swift in Sources */,
 				964F47D221E7BB5F00593124 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
