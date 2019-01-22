@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960B165E21F60DB600ABCE18 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B165D21F60DB600ABCE18 /* CardViewModel.swift */; };
+		960B166021F60FE000ABCE18 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B165F21F60FE000ABCE18 /* AppViewModel.swift */; };
+		960B166321F6106D00ABCE18 /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B166221F6106D00ABCE18 /* StyleGuide.swift */; };
+		960B166521F610E200ABCE18 /* Bool+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B166421F610E200ABCE18 /* Bool+Extensions.swift */; };
+		960B166721F6110100ABCE18 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B166621F6110100ABCE18 /* String+Extensions.swift */; };
+		960B166921F6111D00ABCE18 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B166821F6111D00ABCE18 /* UIImage+Extensions.swift */; };
+		960B166B21F6113B00ABCE18 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B166A21F6113B00ABCE18 /* UITableView+Extensions.swift */; };
+		960B166D21F6115900ABCE18 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B166C21F6115900ABCE18 /* UIView+Extensions.swift */; };
+		960B166F21F6117900ABCE18 /* UIWindow+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B166E21F6117900ABCE18 /* UIWindow+Extensions.swift */; };
+		960B167121F611BA00ABCE18 /* GenericTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B167021F611BA00ABCE18 /* GenericTableViewCell.swift */; };
+		960B167321F611F900ABCE18 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B167221F611F900ABCE18 /* AppView.swift */; };
+		960B167521F6121200ABCE18 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B167421F6121200ABCE18 /* CardView.swift */; };
+		960B167821F6125500ABCE18 /* CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B167721F6125500ABCE18 /* CustomData.swift */; };
+		960B167D21F6137800ABCE18 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B167C21F6137800ABCE18 /* DetailViewController.swift */; };
+		960B168021F613C200ABCE18 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B167F21F613C200ABCE18 /* TransitionManager.swift */; };
+		960B168221F614D200ABCE18 /* CardTilesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 960B168121F614D200ABCE18 /* CardTilesData.json */; };
 		964F47D221E7BB5F00593124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47D121E7BB5F00593124 /* AppDelegate.swift */; };
-		964F47D421E7BB5F00593124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47D321E7BB5F00593124 /* ViewController.swift */; };
+		964F47D421E7BB5F00593124 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F47D321E7BB5F00593124 /* TodayViewController.swift */; };
 		964F47D721E7BB5F00593124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964F47D521E7BB5F00593124 /* Main.storyboard */; };
 		964F47DA21E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 964F47D821E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld */; };
 		964F47DC21E7BB7B00593124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964F47DB21E7BB7B00593124 /* Assets.xcassets */; };
@@ -36,9 +52,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		960B165D21F60DB600ABCE18 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		960B165F21F60FE000ABCE18 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		960B166221F6106D00ABCE18 /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		960B166421F610E200ABCE18 /* Bool+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Extensions.swift"; sourceTree = "<group>"; };
+		960B166621F6110100ABCE18 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		960B166821F6111D00ABCE18 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		960B166A21F6113B00ABCE18 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		960B166C21F6115900ABCE18 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		960B166E21F6117900ABCE18 /* UIWindow+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extensions.swift"; sourceTree = "<group>"; };
+		960B167021F611BA00ABCE18 /* GenericTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableViewCell.swift; sourceTree = "<group>"; };
+		960B167221F611F900ABCE18 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		960B167421F6121200ABCE18 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		960B167721F6125500ABCE18 /* CustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomData.swift; sourceTree = "<group>"; };
+		960B167C21F6137800ABCE18 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		960B167F21F613C200ABCE18 /* TransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		960B168121F614D200ABCE18 /* CardTilesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CardTilesData.json; path = "../../../../../Downloads/6-appStoreDragToDismiss/6-appStoreDragToDismiss-final/AppStore/Data/CardTilesData.json"; sourceTree = "<group>"; };
 		964F47CE21E7BB5F00593124 /* IOS Development Ideas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Development Ideas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		964F47D121E7BB5F00593124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		964F47D321E7BB5F00593124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		964F47D321E7BB5F00593124 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		964F47D621E7BB5F00593124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		964F47D921E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOS_Development_Ideas.xcdatamodel; sourceTree = "<group>"; };
 		964F47DB21E7BB7B00593124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +110,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		960B165C21F60D7500ABCE18 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				960B165D21F60DB600ABCE18 /* CardViewModel.swift */,
+				960B165F21F60FE000ABCE18 /* AppViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		960B166121F6105500ABCE18 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				960B166221F6106D00ABCE18 /* StyleGuide.swift */,
+				960B167021F611BA00ABCE18 /* GenericTableViewCell.swift */,
+				960B167221F611F900ABCE18 /* AppView.swift */,
+				960B167421F6121200ABCE18 /* CardView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		960B167621F6124400ABCE18 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				960B167721F6125500ABCE18 /* CustomData.swift */,
+				960B168121F614D200ABCE18 /* CardTilesData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		960B167B21F612FE00ABCE18 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				964F47D321E7BB5F00593124 /* TodayViewController.swift */,
+				960B167C21F6137800ABCE18 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		960B167E21F6139A00ABCE18 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				960B167F21F613C200ABCE18 /* TransitionManager.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
 		964F47C521E7BB5F00593124 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +179,13 @@
 		964F47D021E7BB5F00593124 /* IOS Development Ideas */ = {
 			isa = PBXGroup;
 			children = (
+				960B167621F6124400ABCE18 /* Data */,
+				960B167E21F6139A00ABCE18 /* Transitions */,
+				960B166121F6105500ABCE18 /* UI */,
 				96F2272E21F3719D00986BBB /* Utils */,
+				960B167B21F612FE00ABCE18 /* ViewControllers */,
+				960B165C21F60D7500ABCE18 /* ViewModels */,
 				964F47D121E7BB5F00593124 /* AppDelegate.swift */,
-				964F47D321E7BB5F00593124 /* ViewController.swift */,
 				964F47D521E7BB5F00593124 /* Main.storyboard */,
 				964F47DB21E7BB7B00593124 /* Assets.xcassets */,
 				964F47DD21E7BB7B00593124 /* LaunchScreen.storyboard */,
@@ -135,6 +217,12 @@
 			isa = PBXGroup;
 			children = (
 				96F2272F21F371F500986BBB /* Extensions+UIVIew.swift */,
+				960B166421F610E200ABCE18 /* Bool+Extensions.swift */,
+				960B166621F6110100ABCE18 /* String+Extensions.swift */,
+				960B166821F6111D00ABCE18 /* UIImage+Extensions.swift */,
+				960B166A21F6113B00ABCE18 /* UITableView+Extensions.swift */,
+				960B166C21F6115900ABCE18 /* UIView+Extensions.swift */,
+				960B166E21F6117900ABCE18 /* UIWindow+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -246,6 +334,7 @@
 				964F47DF21E7BB7B00593124 /* LaunchScreen.storyboard in Resources */,
 				964F47DC21E7BB7B00593124 /* Assets.xcassets in Resources */,
 				964F47D721E7BB5F00593124 /* Main.storyboard in Resources */,
+				960B168221F614D200ABCE18 /* CardTilesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +359,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964F47D421E7BB5F00593124 /* ViewController.swift in Sources */,
+				960B166321F6106D00ABCE18 /* StyleGuide.swift in Sources */,
+				964F47D421E7BB5F00593124 /* TodayViewController.swift in Sources */,
 				964F47DA21E7BB5F00593124 /* IOS_Development_Ideas.xcdatamodeld in Sources */,
+				960B166021F60FE000ABCE18 /* AppViewModel.swift in Sources */,
+				960B166721F6110100ABCE18 /* String+Extensions.swift in Sources */,
 				96F2273021F371F500986BBB /* Extensions+UIVIew.swift in Sources */,
+				960B166D21F6115900ABCE18 /* UIView+Extensions.swift in Sources */,
+				960B166F21F6117900ABCE18 /* UIWindow+Extensions.swift in Sources */,
+				960B167321F611F900ABCE18 /* AppView.swift in Sources */,
+				960B167D21F6137800ABCE18 /* DetailViewController.swift in Sources */,
 				964F47D221E7BB5F00593124 /* AppDelegate.swift in Sources */,
+				960B167821F6125500ABCE18 /* CustomData.swift in Sources */,
+				960B166B21F6113B00ABCE18 /* UITableView+Extensions.swift in Sources */,
+				960B166921F6111D00ABCE18 /* UIImage+Extensions.swift in Sources */,
+				960B165E21F60DB600ABCE18 /* CardViewModel.swift in Sources */,
+				960B168021F613C200ABCE18 /* TransitionManager.swift in Sources */,
+				960B166521F610E200ABCE18 /* Bool+Extensions.swift in Sources */,
+				960B167521F6121200ABCE18 /* CardView.swift in Sources */,
+				960B167121F611BA00ABCE18 /* GenericTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
